@@ -20,3 +20,9 @@ pip3 install rasa
 #Congratulations! You have successfully installed Rasa Open Source!
 #You can now create a new project with:
 rasa init
+
+#after setup file location and everything
+
+rasa shell 
+
+#now the chatbot will chat
