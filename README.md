@@ -6,6 +6,7 @@ chatbot for LIL
 #Python Environment Setup:
 
 python3 --version
+
 pip3 --version
 
 
