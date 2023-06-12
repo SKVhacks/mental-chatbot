@@ -3,7 +3,8 @@ chatbot for LIL
 
 #checkout this website :"https://rasa.com/docs/rasa/installation/environment-set-up"
 (or)
-#Python Environment Setup
+#Python Environment Setup:
+
 python3 --version
 pip3 --version
 
