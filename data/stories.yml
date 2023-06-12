@@ -1,0 +1,92 @@
+version: "3.1"
+
+stories:
+- story: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+  
+
+- story: outro
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+    
+
+- story: kelvi
+  steps:
+    - intent: question
+    - action: utter_question
+
+
+
+- story: challange
+  steps:
+    - intent: bot_challenge 
+    - action: utter_bot_challenge
+  
+
+- story: working
+  steps:
+    - intent: delight
+    - action: utter_delight
+
+
+
+- story: happy
+  steps:
+  - intent: mood_joly
+  - action: utter_joly 
+
+- story: unhappy
+  steps:
+  - intent: mood_unhappy
+  - action: utter_mood_unhappy   
+
+- story: thanks
+  steps:
+  - intent: thanks
+  - action: utter_thanks
+##################################################
+
+- story: affrim
+  steps:
+  - intent: affrim
+  - action: utter_affrim
+
+- story: excitment
+  steps:
+  - intent: excitment
+  - action: utter_excitment
+#####boring
+- story: boring
+  steps:
+  - intent: boring 
+  - action: utter_boring
+  - intent: affrim
+  - action: utter_affrim
+
+- story: problem
+  steps:
+  - intent: family_problems
+  - action: utter_breif    
+  - intent: work_problems
+  - action: utter_breif  
+  - intent: stress
+  - action: utter_breif  
+  - intent: cant_focus
+  - action: utter_breif  
+  - intent: proj_tension
+  - action: utter_breif  
+  - intent: affrim
+  - action: utter_affrim
+
+- story: depressed
+  steps:
+  - intent: depressed
+  - action: utter_depressed
+
+- story: headache
+  steps:
+  - intent: headache
+  - action: utter_ headache  

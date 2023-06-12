@@ -1,0 +1,87 @@
+version: "3.1"
+
+intents:
+   - greet
+   - goodbye
+   - question
+   - bot_challenge
+   - delight
+   - mood_joly
+   - mood_unhappy
+   - thanks
+   - affrim
+   - excitment
+   - family_problems
+   - work_problems
+   - stress
+   - cant_focus
+   - proj_tension
+   - boring
+   - depressed
+   - headache
+
+  # - lookup: name
+  # examples: |
+  #   - ritik
+  #   - aniket
+  #   - vishwesh
+  #   - shubhankar
+  #   - archita
+  #   - rahul
+  #   - vishwa
+  #   - thejvanth
+  #   - nk darshan
+
+
+  
+
+responses: 
+  utter_greet:
+  - text: "Hey 👋 "
+  - text: "Hello 👋,How are you?"
+  
+  utter_goodbye:
+  - text: "Bye.., Meet you Again"
+
+  utter_question:
+  - text: "As an AI language model, I don't have feelings, but I'm functioning well with some bugs. "
+  
+  utter_bot_challenge:
+  - text: "Yes,I'm a Bot powered by AI B2W"
+
+  utter_delight:
+  - text: "Nice..,Good Job"
+ 
+
+  utter_joly:
+  - text: "Happy to hear Man"
+  
+  utter_mood_unhappy :
+  - text : "What Happen"
+
+  utter_thanks:
+  - text: "You are Welcome😎"
+
+  utter_affrim:
+  - text: "Ok"
+
+  utter_excitment:
+  - text: "Really"
+
+  utter_boring:
+  - text: "I Think that this topic from YouTube will recover from boring https://www.youtube.com/feed/trending "
+  - text: "Intresting Video https://youtu.be/aqz-KE-bpKQ "
+  - text: "Hear Some Music https://music.youtube.com/ "
+  - text: "Play some Games https://play.geforcenow.com/ "
+
+  utter_breif:
+  - text: "Tell Breif about that"
+
+  utter_depressed:
+  - text: "Here are a few suggestions:\n1.Take a break: Sometimes taking a break from what you're doing and taking some time to relax can help you feel better. This could be as simple as taking a walk, practicing some deep breathing exercises, or engaging in a hobby that you enjoy.\n\n2.Exercise: Physical activity can help reduce stress and release tension. You don't need to do anything too intense - even a short walk or yoga session can help.\n\n3.Practice mindfulness: Mindfulness involves paying attention to the present moment without judgment. This can help you feel more calm and centered. There are many mindfulness techniques you can try, such as meditation, deep breathing, or progressive muscle relaxation.\n\n4.Talk to someone: Talking to a friend, family member, or mental health professional can be a great way to get support and perspective. Sometimes just expressing your feelings can help reduce stress.\n\n5.Take care of yourself: Make sure you're getting enough sleep, eating a healthy diet, and engaging in activities that bring you joy."
+
+  utter_ headache:
+  - text: "Take a Sleep"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
