@@ -30,5 +30,7 @@ rasa shell
 
 
 
-
+–------------------------------------
 Domain.yml-> To change bot reply 
+data/nlu.yml -> input questions of bot
+data/.yml-> interconnection between "Domain.yml"and"nlu.yml"
