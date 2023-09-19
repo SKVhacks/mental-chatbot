@@ -26,3 +26,9 @@ rasa init
 rasa shell 
 
 #now the chatbot will chat
+
+
+
+
+
+Domain.yml-> To change bot reply 
